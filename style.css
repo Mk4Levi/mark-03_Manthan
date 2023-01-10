@@ -1,0 +1,181 @@
+
+body {
+    margin: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+
+ header {
+    padding: 40px;
+    background-color: rgb(245, 11, 11);
+}
+
+nav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: white;
+    background-attachment: scroll;
+}
+
+main {
+    background-color: white;
+    text-align: center;
+}
+
+h2{
+    color :orangered;
+}
+h2 {
+    padding: 20px;
+}
+
+section:nth-child(even) {
+    background-color: rgb(241, 241, 241);
+}
+
+section {
+    min-height: 100vh;
+}
+
+video {
+    padding: 10px;
+}
+
+iframe {
+    height: 75vh;
+}
+
+img {
+    padding: 10px;
+}
+
+section h5 {
+    margin: 40px;
+}
+
+footer {
+    background-color: #333;
+    overflow: hidden;
+}
+
+footer a {
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: white;
+}
+
+.Manthan_heading {
+    border: 2px solid yellow;
+    border-radius: 10px;
+  }
+  .para1 {
+    font-size: larger;
+    border: 2px solid blue;
+    height: 150px;
+    width: 300px;
+    overflow:auto;
+  }
+
+  h1 {
+    color: blue;
+  }
+
+  h2 {
+    color: deeppink;
+  }
+
+  h3 {
+    color: blueviolet;
+  }
+
+  footer,
+  a {
+    padding: 2px;
+    border: 5px solid red;
+    background-color: rgb(162, 255, 100);
+  }
+  nav {
+    padding: 2px;
+    border: 5px solid red;
+    background-color: rgb(162, 255, 100);
+  }
+
+  table {
+    background-color: rgb(60, 0, 255);
+  }
+  th {
+    background-color: lawngreen;
+    color: rgb(214, 25, 41);
+  }
+  td {
+    font-weight: bold;
+    background-color: rgb(255, 0, 136);
+    color: snow;
+  }
+  table,
+  th,
+  td {
+    padding: 20px;
+    border: 2px solid black;
+    border-spacing: 5px;
+  }
+
+  .container {
+    background-color: rgb(243, 243, 243);
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    margin: 15px 30px;
+    padding: 5px 20px 15px 20px;
+    border: 2px solid gray;
+    border-radius: 5px;
+  }
+
+  input[type="text"],
+  input[type="text"],
+  input[type="email"],
+  input[type="date"],
+  input[type="password"],
+  select,
+  textarea {
+    background-color: rgb(243, 243, 243);
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgb(167, 167, 167);
+    border-radius: 5px;
+  }
+  fieldset {
+    background-color: rgb(243, 243, 243);
+    border: 1px solid rgb(167, 167, 167);
+  }
+  .main_heading {
+    background-color: rgb(243, 243, 243);
+    text-align: center;
+  }
+  input[type="submit"] {
+    background-color: rgb(226, 255, 255);
+    width: 100%;
+    height: 50px;
+    padding: 12px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  input[type="submit"]:hover {
+    background-color: rgb(255, 37, 237);
+  }
