@@ -27,6 +27,7 @@ nav a {
     float: left;
     color: white;
     background-attachment: scroll;
+    border-radius: 3px;
 }
 
 main {
