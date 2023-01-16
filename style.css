@@ -36,10 +36,11 @@ main {
 }
 
 h2{
-    color :orangered;
+    color :rgb(255, 80, 16);
 }
 h2 {
-    padding: 20px;
+    padding: 10px;
+    text-decoration: underline;
 }
 
 section:nth-child(even) {
@@ -86,8 +87,8 @@ footer a {
   .para1 {
     font-size: larger;
     border: 2px solid blue;
-    height: 150px;
-    width: 300px;
+    height: 300px;
+    width: 800px;
     overflow:auto;
   }
 
@@ -96,7 +97,7 @@ footer a {
   }
 
   h2 {
-    color: deeppink;
+    color: rgb(255, 77, 0);
   }
 
   h3 {
