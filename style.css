@@ -18,16 +18,21 @@ header h1 {
 nav {
     background-color: #333;
     overflow: hidden;
+    border-radius: 20px;
+    border: 5px solid darkblue;
+    padding: 2px;
+    margin: 2px;
 }
 
 nav a {
     text-decoration: none;
-    padding: 20px;
+    padding: 15px;
     text-align: center;
     float: left;
     color: white;
     background-attachment: scroll;
-    border-radius: 3px;
+    border-radius: 15px; 
+    margin: 2px;
 }
 
 main {
@@ -66,30 +71,30 @@ img {
 section h5 {
     margin: 40px;
 }
-
+/* 
 footer {
     background-color: #333;
     overflow: hidden;
-}
+} */
 
-footer a {
-    text-decoration: none;
-    padding: 20px;
-    text-align: center;
-    float: left;
-    color: white;
-}
 
 .Manthan_heading {
-    border: 2px solid yellow;
+    border: 5px solid rgb(3, 188, 255);
     border-radius: 10px;
+    background-color: rgb(255, 220, 169);
   }
   .para1 {
     font-size: larger;
     border: 2px solid blue;
+    border-radius: 10px;
     height: 300px;
     width: 800px;
     overflow:auto;
+    padding-left: 15px;
+  }
+
+  .linksMK {
+    padding-left: 15px;
   }
 
   h1 {
@@ -118,6 +123,7 @@ footer a {
 
   table {
     background-color: rgb(60, 0, 255);
+    border-radius: 15px;
   }
   th {
     background-color: lawngreen;
@@ -181,3 +187,24 @@ footer a {
   input[type="submit"]:hover {
     background-color: rgb(255, 37, 237);
   }
+
+  footer {
+    background-color: #333;
+    overflow: hidden;
+    border-radius: 20px;
+    border: 5px solid darkblue;
+    padding: 2px;
+    margin: 2px;
+    
+  }
+
+  footer a {
+    text-decoration: none;
+    padding: 15px;
+    text-align: center;
+    float: left;
+    color: white;
+    background-attachment: scroll;
+    border-radius: 15px; 
+    margin: 2px;
+}
